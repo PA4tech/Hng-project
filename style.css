@@ -1,0 +1,44 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#profile {
+    text-align: center;
+}
+
+#links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#links li {
+    margin: 5px 0;
+}
+
+@media(max-width:600px) {
+    section {
+        padding: 10px;
+    }
+
+}
